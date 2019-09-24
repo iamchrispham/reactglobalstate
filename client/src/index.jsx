@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 import MyApp from './app.jsx';
 import Repos from './components/repos.jsx';
