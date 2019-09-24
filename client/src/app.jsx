@@ -49,13 +49,4 @@ class MyApp extends React.Component {
   }
 }
 
-// const MyApp = (props) => {
-// static contextType = StoreContext;
-//   return (
-//     <div>
-
-//     </div>
-//   )
-// }
-
 export default MyApp;
