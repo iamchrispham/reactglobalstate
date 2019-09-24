@@ -13,9 +13,12 @@ Go ahead, give it a shake!
 
 
 # Usage
+
+```
 npm i
 npm run build
 npm start
 http://127.0.0.1:3000
+```
 
 Search any username on github
