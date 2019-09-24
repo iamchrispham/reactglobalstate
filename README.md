@@ -10,3 +10,12 @@ Latest releases of React really shows depending on the scaleable size of the app
 Go ahead, give it a shake!
 
 -Chris
+
+
+# Usage
+npm i
+npm run build
+npm start
+http://127.0.0.1:3000
+
+Search any username on github
