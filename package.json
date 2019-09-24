@@ -1,0 +1,52 @@
+{
+  "name": "reactglobalstate",
+  "version": "1.0.1",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "webpack -d --watch",
+    "sass": "sass --watch ./client/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamchrispham/reactglobalstate.git"
+  },
+  "keywords": [
+    "global",
+    "hooks"
+  ],
+  "author": "Christopher Pham",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "diff": "^4.0.1",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.20.0",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0",
+    "react-router-dom": "^5.0.1",
+    "react-routes": "^0.2.6",
+    "request": "^2.88.0"
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

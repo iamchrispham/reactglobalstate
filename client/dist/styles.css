@@ -1,0 +1,15 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+}
+
+span {
+  padding: 5px;
+  background: lightseagreen;
+}
